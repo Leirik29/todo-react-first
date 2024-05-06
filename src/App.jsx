@@ -86,7 +86,7 @@ function App() {
              <button
                 disabled={todo.length < 1}
                 onClick={handleAdd}
-                className=" text-center border-2 border-slate-600 active:border-blue-400  text-lg p-2 rounded-lg  disabled:hover:text-red-500 disabled:hover:border-red-500 cursor-pointer"
+                className=" text-center border-2 border-slate-600 hover:border-blue-400 active:border-blue-400  text-lg p-2 rounded-lg  disabled:hover:text-red-500 disabled:hover:border-red-500 cursor-pointer"
               >
                 Save
               </button>
